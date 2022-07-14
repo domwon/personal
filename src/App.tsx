@@ -14,12 +14,12 @@ function App() {
   return (
     <div className="hero min-h-screen bg-base-200">
       <div className="hero-content flex-col lg:flex-row">
-        <img src={logo} className="rounded-xl shadow-2xl mask mask-squircle mx-8 pb-5 max-w-1" />
+        <img src={logo} className="rounded-xl shadow-2xl mask mask-squircle pb-5 max-w-xs" />
 
-        <div>
+        <div className="md:pl-8">
           <h1 className="text-4xl font-bold">Dominic Nguyen</h1>
 
-          <p className="py-6 max-w-sm">Hi there! I am a full-stack developer and data scientist currently building <a className="link link-accent link-hover font-bold" href="https://xplorepod.com" target="_blank"
+          <p className="py-6 max-w-xs md:max-w-sm">Hi there! I am a full-stack developer and data scientist currently building <a className="link link-accent link-hover font-bold" href="https://xplorepod.com" target="_blank"
             rel="noopener noreferrer">XplorePod</a> to help people do more of what makes them happy.
           </p>
 
