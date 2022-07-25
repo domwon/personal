@@ -6,7 +6,7 @@ const links = [
   { id: 1, name: 'Twitter', url: 'https://twitter.com/domknguyen' },
   { id: 2, name: 'LinkedIn', url: 'https://www.linkedin.com/in/dominickhacnguyen' },
   { id: 3, name: 'GitHub', url: 'https://github.com/domwon' },
-  { id: 3, name: 'Mail', url: 'mailto:domkhac@gmail.com' },
+  { id: 3, name: 'Mail', url: 'mailto:hi@domknguyen.com' },
 ];
 
 function App() {
